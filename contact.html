@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+        body {
+            padding: 10px 20px;
+        }
+
+        form {
+            border: 1px solid grey;
+            width: 30%;
+            padding: 24px 0px 24px 32px;
+            /* display: flex;
+            flex-direction: column;
+            flex-wrap: wrap; */
+        }
+
+        input,
+        select,
+        textarea,
+        select {
+            margin-bottom: 16px;
+            width: 70%;
+            resize: none;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="./index.html">Home</a> &#124;
+    <a href="./education.html">Education</a> &#124;
+    <a href="./work.html">Work Experience</a> &#124;
+    <a href="./contact.html">Contact Me</a> &#124;
+    <hr>
+    <h1>Contact Me</h1>
+    <form>
+        <p>Enter Your Info..</p>
+        <label for="name">Your Name</label>
+        <br>
+        <input type="text" id="name" name="name">
+        <br>
+        <label for="email">Your E-mail</label>
+        <br>
+        <input type="text" id="email" name="email">
+        <br>
+        <label for="gender">Gender</label>
+        <br>
+        <select name="gender" id="gender">
+            <option disabled selected>select...</option>
+        </select>
+        <br>
+        <label for="message">Message</label>
+        <br>
+        <textarea name="note" id="message" cols="30" rows="10"></textarea>
+        <br>
+        <button>Send</button>
+        <button>Clear</button>
+    </form>
+</body>
+
+</html>
